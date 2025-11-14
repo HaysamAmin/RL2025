@@ -22,20 +22,6 @@ Target network update frequency
 
 on training stability and episode rewards.
 
-📁 File Structure
-Assignment3/
-│
-├── Assignment3_Pong_DQN_Full.ipynb     # FULL notebook: code, experiments, charts, report
-├── README.md                           # Documentation (you are reading it)
-│
-├── models/                             # Saved model(s) in .keras format (optional)
-│   └── pong_dqn_model.keras
-│
-└── results/                            # Plots, CSV logs (optional)
-
-
-⚠️ No .h5 files are used — TensorFlow now uses .keras models.
-
 📦 Requirements
 
 Install using Python 3.10 or 3.11 with a virtual environment.
