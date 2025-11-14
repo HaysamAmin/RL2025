@@ -1,0 +1,106 @@
+# -----------------------------
+# Python Cache & Bytecode
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.p
+*.so
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# -----------------------------
+# Jupyter Notebook Checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# -----------------------------
+# OS Files (Windows / Mac / Linux)
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Build / Packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+
+# -----------------------------
+# Logs & Debug Info
+# -----------------------------
+*.log
+logs/
+debug/
+tensorboard/
+tb_logs/
+
+# -----------------------------
+# RL / Atari Artifacts
+# -----------------------------
+# Gymnasium / Atari ROMs (if included)
+*.bin
+*.rom
+
+# Recorded episodes, monitor files
+*.mp4
+monitor/
+replay_buffer/
+checkpoints/
+models/
+saved_models/
+
+# -----------------------------
+# Data
+# -----------------------------
+data/
+datasets/
+*.csv
+*.txt
+
+# -----------------------------
+# Outputs
+# -----------------------------
+outputs/
+results/
+plots/
+figures/
+
+# -----------------------------
+# IDE / Editor Folders
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# Environment Variables / Secrets
+# -----------------------------
+*.env
+.env.*
+
+# -----------------------------
+# Cache
+# -----------------------------
+.cache/
+*.cache
+__cache__/
+
+# -----------------------------
+# PyCharm
+# -----------------------------
+*.iws
+out/
